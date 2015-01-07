@@ -54,6 +54,7 @@ h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    text-align:center;
 }
 
 p {
@@ -70,7 +71,8 @@ p {
     }
 }
 
-a {
+a,
+.headline h1 {
     color: #333;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -78,9 +80,10 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+.headline h1:hover {
     text-decoration: none;
-    color: #6d3d47;
+    color: #ddd;
 }
 
 .light {
@@ -137,7 +140,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
