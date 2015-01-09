@@ -54,6 +54,8 @@ body {
     background-color:white;
 }
 
+/* HEADER */
+
 .header-image {
     display: block;
     height: 90%;
@@ -110,6 +112,8 @@ body {
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
+
+/* FEATURE SETTINGS*/
 
 .featurette-divider {
     margin: 80px 0;
@@ -214,6 +218,8 @@ body {
 footer {
     margin: 50px 0;
 }
+
+/* MEDIA QUERIES */
 
 @media(max-width:1200px) {
     .headline h1 {

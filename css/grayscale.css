@@ -90,6 +90,8 @@ a:focus,
     font-weight: 400;
 }
 
+/* NAVBAR */
+
 .navbar-custom {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -137,6 +139,8 @@ a:focus,
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
+
+/* MEDIA QUERIES */
 
 @media(min-width:767px) {
     .navbar {
