@@ -1,3 +1,8 @@
+.social-icons{
+    /*background-color: black;*/
+    text-align: center;
+    color: black;
+}
 
 .circle-table{
     text-align: center;
@@ -22,7 +27,7 @@
 }
 
 h1{
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'texgyreadventorregular', "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
 
@@ -32,7 +37,7 @@ h1{
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'texgyreadventorregular',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -104,18 +109,19 @@ body {
 }
 .headline {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .headline h1 {
+    font-family:'texgyreadventorregular';
     padding: auto;
     text-align: center;
     color: #333;
     background: rgba(255,255,255,0);
-    border: 5px solid;
-    font-weight: 600;
+    border: 3px solid;
+    font-weight: 100;
     display: inline-block;
-    padding:7px;
+    padding:15px;
 }
 
 .headline h2 {
